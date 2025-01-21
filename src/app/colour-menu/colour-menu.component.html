@@ -1,0 +1,18 @@
+
+<div class="container">
+    <div class="box">
+        <h1 style="color: #0056b3;">Please imagine a colour and don't tell us!!!</h1>
+      <div class="color-menu">
+            <div>
+            @for(colour of colourMenu;track colour){
+                <h2 [ngStyle]="{'color': colour}">{{colour}}</h2>
+            }
+            </div>
+      </div>
+      <button class="btn" (click)="yes()">OK</button>
+    </div>
+</div>
+
+
+
+

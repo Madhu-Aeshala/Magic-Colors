@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ColourMenuComponent } from './colour-menu/colour-menu.component';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -9,4 +11,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'magicColours';
+
 }
